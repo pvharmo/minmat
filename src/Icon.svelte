@@ -1,4 +1,7 @@
 <script lang="ts">
+  /**
+   * @type {string}
+   */
   export let icon: string
   export let size: number = 24
   export let color: string = '#555'
