@@ -1,10 +1,16 @@
 <script lang="ts">
   import Ripple from '../utils/Ripple.svelte'
+
+  export let interactive = true
+  export let style = ''
+  export let hover = true
 </script>
 
-<li on:click>
+<li class:hover on:click {style}>
   <slot />
-  <Ripple />
+  {#if interactive}
+    <Ripple />
+  {/if}
 </li>
 
 <style>
@@ -24,7 +30,7 @@
     white-space: nowrap;
   }
 
-  li:hover {
+  .hover:hover {
     background-color: rgba(0, 0, 0, 0.03);
   }
 </style>

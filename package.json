@@ -1,6 +1,6 @@
 {
   "name": "minmat",
-  "version": "0.1.7",
+  "version": "0.1.12",
   "description": "Minimalistic material design svelte library",
   "svelte": "src/index.ts",
   "module": "dist/index.mjs",
