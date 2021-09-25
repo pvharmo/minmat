@@ -18,6 +18,7 @@
   }
 
   tr {
+    position: relative;
     vertical-align: middle;
   }
 </style>
