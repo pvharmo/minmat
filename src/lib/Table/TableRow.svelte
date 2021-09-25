@@ -16,4 +16,8 @@
   .highlight {
     background-color: var(--primary-very-light-color);
   }
+
+  tr {
+    vertical-align: middle;
+  }
 </style>
