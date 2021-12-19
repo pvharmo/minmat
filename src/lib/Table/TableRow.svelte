@@ -5,7 +5,7 @@
   export let interactive = false
 </script>
 
-<tr class:highlight class:interactive on:click>
+<tr class:highlight class:interactive on:click on:dblclick>
   <slot />
   {#if interactive}
     <Ripple />
